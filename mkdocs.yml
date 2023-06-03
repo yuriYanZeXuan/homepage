@@ -1,3 +1,68 @@
-site_name: My Docs
+site_name: 个人主页
+site_author: "闫泽轩"
+site_url: "http://yuriYanZeXuan.github.io/homepage"
+site_description: "YuriYZX's homepage"
+
 theme:
   name: material
+  language: 'zh'
+  palette:
+    - primary: 'deep purple'
+    - accent: 'orange'
+
+nav:
+  - 个人简介: index.md
+  - 各学期大作业/学业成绩情况: 
+    - 大一上: semester/FreshmanUp.md
+    - 大一下: semester/FreshmanDown.md
+    - 大二上: semester/SophormoreUp.md
+    - 大二下: semester/SophormoreDown.md
+  - 竞赛获奖情况:
+    - 第十三届中国大学生服务外包创新创业大赛区域赛三等奖: rewards/NFT.md
+    - 2023年安徽省机器人大赛-程序设计赛道本科组一等奖: rewards/AnhuiOI.md
+
+
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
