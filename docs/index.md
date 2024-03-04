@@ -2,9 +2,9 @@
 ## 中英文简历和成绩单
 [普通成绩单中文_国内用_闫泽轩(PB21111696)](../docs/src/score_sheet.pdf)
 
-[闫泽轩中文简历](../docs/src/cv_zh.pdf)
+[闫泽轩中文简历](../src/cv_zh.pdf)
 
-[闫泽轩英文简历](../docs/src/cv_en.pdf)
+[闫泽轩英文简历](../src/cv_en.pdf)
 
 ## 旧个人主页链接
 
@@ -37,4 +37,4 @@
 
 ## 学业成绩(截止至大三上)
 
-![alt text](../docs/src/gpa_rank3.png)
+![alt text](../src/gpa_rank3.png)
