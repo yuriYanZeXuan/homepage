@@ -37,4 +37,4 @@
 
 ## 学业成绩(截止至大三上)
 
-![alt text](gpa_rank3.png)
+![alt text](../docs/src/gpa_rank3.png)
